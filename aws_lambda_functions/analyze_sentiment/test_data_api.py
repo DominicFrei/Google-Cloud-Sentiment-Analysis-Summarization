@@ -4,20 +4,20 @@ import requests
 
 
 def test_data_api():
-    url = "https://us-east-1.aws.data.mongodb-api.com/app/data-xbrmk/endpoint/data/v1/action/findOne"
+    url = "https://us-east-1.aws.data.mongodb-api.com/app/application-0-lmzbw/endpoint/data/v1/action/findOne"
 
     payload = json.dumps(
         {
             "collection": "restaurants",
             "database": "sample_restaurants",
-            "dataSource": "Cluster0",
+            "dataSource": "mongodb-atlas",
             "projection": {"_id": 1},
         }
     )
     headers = {
         "Content-Type": "application/json",
         "Access-Control-Request-Headers": "*",
-        "api-key": "1vx4uecIgF94b7JWPtO2Vq1qk29MltDITaeYIDL1Ssyts44RUcbuSF936BQI1K5y",
+        # "api-key": "1vx4uecIgF94b7JWPtO2Vq1qk29MltDITaeYIDL1Ssyts44RUcbuSF936BQI1K5y",
         "Accept": "application/ejson",
     }
 
