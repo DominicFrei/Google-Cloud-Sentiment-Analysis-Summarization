@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-googlecloudsentiment-dev-20624-authRole",
+      "UnauthRoleArn": "arn:aws:iam::722245653955:role/amplify-googlecloudsentiment-dev-20624-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::722245653955:role/amplify-googlecloudsentiment-dev-20624-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-googlecloudsentiment-dev-20624-deployment",
+      "UnauthRoleName": "amplify-googlecloudsentiment-dev-20624-unauthRole",
+      "StackName": "amplify-googlecloudsentiment-dev-20624",
+      "StackId": "arn:aws:cloudformation:us-east-1:722245653955:stack/amplify-googlecloudsentiment-dev-20624/2f95f260-eb93-11ee-bef7-0e71bd555a59",
+      "AmplifyAppId": "d2sp6fdz541znd"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2sp6fdz541znd",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
